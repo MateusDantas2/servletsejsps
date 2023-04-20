@@ -1,4 +1,4 @@
-package br.com.softblue.servlets;
+package br.com.softblue.module4;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;

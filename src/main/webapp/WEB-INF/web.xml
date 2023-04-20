@@ -4,22 +4,51 @@
          http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
 
-    <display-name>JSP</display-name>
-    <welcome-file-list>
-<!--        <welcome-file>listar.html</welcome-file>-->
-<!--        <welcome-file>listar.htm</welcome-file>-->
-<!--        <welcome-file>listar.jsp</welcome-file>-->
-        <welcome-file>conteudo.html</welcome-file>
-        <welcome-file>conteudo.htm</welcome-file>
-        <welcome-file>conteudo.jsp</welcome-file>
-        <welcome-file>default.html</welcome-file>
-        <welcome-file>default.htm</welcome-file>
-        <welcome-file>default.jsp</welcome-file>
-    </welcome-file-list>
+    <servlet>
+        <description></description>
+        <display-name>ListServlet</display-name>
+        <servlet-name>ListServlet</servlet-name>
+        <servlet-class>br.com.softblue.module6.servlets.ListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListServlet</servlet-name>
+        <url-pattern>/List</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description></description>
+        <display-name>DeleteServlet</display-name>
+        <servlet-name>DeleteServlet</servlet-name>
+        <servlet-class>br.com.softblue.module6.servlets.DeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteServlet</servlet-name>
+        <url-pattern>/Delete</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description></description>
+        <display-name>EditServlet</display-name>
+        <servlet-name>EditServlet</servlet-name>
+        <servlet-class>br.com.softblue.module6.servlets.EditServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditServlet</servlet-name>
+        <url-pattern>/Edit</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description></description>
+        <display-name>SaveServlet</display-name>
+        <servlet-name>SaveServlet</servlet-name>
+        <servlet-class>br.com.softblue.module6.servlets.SaveServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SaveServlet</servlet-name>
+        <url-pattern>/Save</url-pattern>
+    </servlet-mapping>
 
+    <!--    MODULE 4 -->
 <!--    <servlet>-->
 <!--        <servlet-name>AutoInit1Servlet</servlet-name>-->
-<!--        <servlet-class>br.com.softblue.servlets.AutoInit1Servlet</servlet-class>-->
+<!--        <servlet-class>br.com.softblue.module4.AutoInit1Servlet</servlet-class>-->
 <!--        <init-param>-->
 <!--            <param-name>adminEmail</param-name>-->
 <!--            <param-value>admin@sistema.com</param-value>-->
@@ -29,8 +58,22 @@
 
 <!--    <servlet>-->
 <!--        <servlet-name>AutoInit2Servlet</servlet-name>-->
-<!--        <servlet-class>br.com.softblue.servlets.AutoInit2Servlet</servlet-class>-->
+<!--        <servlet-class>br.com.softblue.module4.AutoInit2Servlet</servlet-class>-->
 <!--        <load-on-startup>1</load-on-startup>-->
 <!--    </servlet>-->
+
+    <!--    MODULE 5 -->
+<!--    <display-name>JSP</display-name>-->
+<!--    <welcome-file-list>-->
+<!--        <welcome-file>listar.html</welcome-file>-->
+<!--        <welcome-file>listar.htm</welcome-file>-->
+<!--        <welcome-file>listar.jsp</welcome-file>-->
+<!--        <welcome-file>conteudo.html</welcome-file>-->
+<!--        <welcome-file>conteudo.htm</welcome-file>-->
+<!--        <welcome-file>conteudo.jsp</welcome-file>-->
+<!--        <welcome-file>default.html</welcome-file>-->
+<!--        <welcome-file>default.htm</welcome-file>-->
+<!--        <welcome-file>default.jsp</welcome-file>-->
+<!--    </welcome-file-list>-->
 
 </web-app>

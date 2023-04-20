@@ -13,7 +13,7 @@
 %>
 
 <%
-    InputStream is = application.getResourceAsStream("/WEB-INF/props.txt");
+    InputStream is = application.getResourceAsStream("/WEB-INF/props1.txt");
     props.load(is);
     is.close();
 
