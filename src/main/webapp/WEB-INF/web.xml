@@ -4,46 +4,17 @@
          http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
 
-    <servlet>
-        <description></description>
-        <display-name>ListServlet</display-name>
-        <servlet-name>ListServlet</servlet-name>
-        <servlet-class>br.com.softblue.module6.servlets.ListServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>ListServlet</servlet-name>
-        <url-pattern>/List</url-pattern>
-    </servlet-mapping>
-    <servlet>
-        <description></description>
-        <display-name>DeleteServlet</display-name>
-        <servlet-name>DeleteServlet</servlet-name>
-        <servlet-class>br.com.softblue.module6.servlets.DeleteServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>DeleteServlet</servlet-name>
-        <url-pattern>/Delete</url-pattern>
-    </servlet-mapping>
-    <servlet>
-        <description></description>
-        <display-name>EditServlet</display-name>
-        <servlet-name>EditServlet</servlet-name>
-        <servlet-class>br.com.softblue.module6.servlets.EditServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>EditServlet</servlet-name>
-        <url-pattern>/Edit</url-pattern>
-    </servlet-mapping>
-    <servlet>
-        <description></description>
-        <display-name>SaveServlet</display-name>
-        <servlet-name>SaveServlet</servlet-name>
-        <servlet-class>br.com.softblue.module6.servlets.SaveServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>SaveServlet</servlet-name>
-        <url-pattern>/Save</url-pattern>
-    </servlet-mapping>
+<!--    <servlet>-->
+<!--        <description></description>-->
+<!--        <display-name>ListServlet</display-name>-->
+<!--        <servlet-name>ListServlet</servlet-name>-->
+<!--        <servlet-class>br.com.softblue.module6.props.servlets.ListServlet</servlet-class>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>ListServlet</servlet-name>-->
+<!--        <url-pattern>/List</url-pattern>-->
+<!--    </servlet-mapping>-->
+
 
     <!--    MODULE 4 -->
 <!--    <servlet>-->

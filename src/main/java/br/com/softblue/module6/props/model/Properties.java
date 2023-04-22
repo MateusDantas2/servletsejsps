@@ -1,4 +1,4 @@
-package br.com.softblue.module6.model;
+package br.com.softblue.module6.props.model;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

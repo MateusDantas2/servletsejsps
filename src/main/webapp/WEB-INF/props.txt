@@ -1,6 +1,5 @@
 #
-#Thu Apr 20 19:37:44 BRT 2023
-Davi=Falta Punheta
-Jailton=Gay
-Gabriel=Homossexual
-Lucas=null
+#Sat Apr 22 14:54:14 BRT 2023
+p3=v3
+p2=v2
+p1=v1
